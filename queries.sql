@@ -1,22 +1,4 @@
 
-/*
-
-Source: https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
-
-About the columns
-
-Clothing ID: Integer Categorical variable that refers to the specific piece being reviewed.
-Age: Positive Integer variable of the reviewers age.
-Title: String variable for the title of the review.
-Review Text: String variable for the review body.
-Rating: Positive Ordinal Integer variable for the product score granted by the customer from 1 Worst, to 5 Best.
-Recommended IND: Binary variable stating where the customer recommends the product where 1 is recommended, 0 is not recommended.
-Positive Feedback Count: Positive Integer documenting the number of other customers who found this review positive.
-Division Name: Categorical name of the product high level division.
-Department Name: Categorical name of the product department name.
-Class Name: Categorical name of the product class name.
-*/
-
 SELECT * FROM reviews
 --we have 23486 rows and 11 columns.
 
@@ -46,17 +28,6 @@ from reviews
 -- there are some null classes, lets look at them.
 select * from reviews where "Class Name" is null
 order by "Clothing ID"
-
-/*
-we can find null values from the reviews. 
-For example, clothing id 
-72 and 136 are socks
-152 is leg warmer
-184 is tight
-492 is hoodie
-772 is sweatshirt
-For only 665 we have no idea.
-*/
 
 select *
 from reviews WHERE "Class Name" in ('Legwear')

@@ -1,7 +1,6 @@
 
 
 # Women's E-Commerce Clothing Reviews
-##Data Analysis
 
 [Data Source](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews)
 
