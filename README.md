@@ -16,6 +16,7 @@ Women's E-Commerce Clothing Reviews - Data Analysis with SQL
 - *Department Name*: Categorical name of the product department name.
 - *Class Name*: Categorical name of the product class name.
 
-In reviewanalysis.md file, you can see analysis with sql.
-
 reviews.csv file is dataset.
+
+
+In reviewanalysis.md file, you can see analysis with sql.
