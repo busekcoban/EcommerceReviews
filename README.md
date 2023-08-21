@@ -19,4 +19,4 @@ Women's E-Commerce Clothing Reviews - Data Analysis with SQL
 reviews.csv file is dataset.
 
 
-In reviewanalysis.md file, you can see analysis with sql.
+In reviewanalysis.md file, you can see analysis with SQL.
